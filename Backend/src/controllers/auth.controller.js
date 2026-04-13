@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import userModel from "../models/user.model.js";
 
-export const Register = async (req,res)=>{
+export const Register = async(req,res)=>{
 
     const {email,constact,password,fullname}= req.body
     try{
