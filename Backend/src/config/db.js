@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import "./config.js"; // 👈 env load + validation
+import "./config.js"; //  env load + validatio
 
 const connectDB = async () => {
     await mongoose.connect(process.env.MONGO_URI);
