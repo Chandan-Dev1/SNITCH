@@ -3,6 +3,7 @@ import { useAuth } from "../hook/useAuth";
 import { useNavigate } from "react-router";
 import ContinueWithGoogle from '../components/ContinueWithGoogle';
 
+
 const Login = () => {
     const { handleLogin } = useAuth();
     const navigate = useNavigate();
