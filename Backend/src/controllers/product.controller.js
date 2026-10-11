@@ -1,4 +1,4 @@
-import ProductModel from '../models/product.model.js'
+import productModel from '../models/product.model.js'
 import { uploadFile } from "../services/storage.service.js";
 
 
